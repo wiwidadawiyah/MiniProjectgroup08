@@ -1,0 +1,10 @@
+.promotion {
+    height: 250px;
+}
+
+
+.Promotion h2 {
+    text-align: center;
+    border-radius: 20px;
+    border-color: green;
+}

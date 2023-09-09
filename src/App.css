@@ -1,38 +1,114 @@
-.App {
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.bar {
+  background-color: rgb(170, 238, 196);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 55px;
+    margin-bottom: 5px;
+}
+
+.nav-logo {
+  padding: 0px 130px;
+    background-image: url(https://logique-dev.s3.ap-southeast-1.amazonaws.com/webdev-id/profile/1567140508_181409.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.d-flex {
+  height: 55px;
+  vertical-align: middle;
+  
+}
+
+.nav-form-control {
+  width: 450px;
+  height: 35px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+  border-color: rgb(77, 255, 0);
+}
+
+.nav-btn-primary {
+  color: rgb(77, 255, 0);
+  width: 70px;
+  height: 35px;
+  background-color:#ffffff;
+  border-bottom-right-radius: 20px;
+  border-color:rgb(77, 255, 0);
+  
+}
+
+.nav-btn-primary:hover {
+  cursor: pointer;
+    background-color: #345541;
+    color: white;
+    border-color: white;
+
+}
+
+.reactLogo {
+  color: #8307dd;
+  padding-top: 10px;
+  padding-right: 10px;
+  display: flex;
+
+}
+
+.reactLogo:hover {
+  color: #07d6dd;
+  padding-top: 10px;
+  padding-right: 10px;
+  display: flex;
+
+}
+
+.div-marquee {
+  background-color: rgb(77, 255, 0);
+  color: #345541;
+}
+
+.row {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0% 1%;
+  justify-content: space-between;
+}
+
+.nav-end ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(170, 238, 196) ;
+  height: 30px;
+  
+}
+
+.fo-end a {
+  display: flex;
+  margin: 0px 10px;
+}
+
+.footer {
+  background-color: #345541;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer p {
+  padding-bottom: 5px;
 }
